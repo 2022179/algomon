@@ -4,6 +4,8 @@
  */
 package algomon;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Lecturer
@@ -20,7 +22,13 @@ public class Algomon {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hello");
+      String name;
+      int health;
+      int attack;
+      int defense;
+      int speed;
+      ArrayList<ability> abilities;
+      
     }
     
 }
