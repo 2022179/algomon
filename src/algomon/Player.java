@@ -4,10 +4,23 @@
  */
 package algomon;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author User
  */
 public class Player {
+    private final String name;
+    
+private ArrayList<Algomon>algomonTeam;
+            
+            public Player(String name){
+            this.name = name;
+            this.algomonTeam =  new ArrayList<>();
+            
+            }
+            
+            
     
 }
