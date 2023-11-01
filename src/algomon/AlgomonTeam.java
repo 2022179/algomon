@@ -49,7 +49,7 @@ public class AlgomonTeam {
 //    
 //    }
     Player player1 = new Player("Player 1");
-        Player player2 = new Player("Player 2");
+    Player player2 = new Player("Player 2");
 
         // Create Algomon for Player 1
         Random rand = new Random();
@@ -65,7 +65,7 @@ public class AlgomonTeam {
         }
 
         // Create Algomon for Player 2
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++){
             AlgomonTeam algomonType = AlgomonTeam.values()[rand.nextInt(AlgomonTeam.values().length)];
             String algomonName = algomonType + " Algomon";
             int health = rand.nextInt(51) + 50;
@@ -74,4 +74,5 @@ public class AlgomonTeam {
             int speed = rand.nextInt(10) + 1;
             
 }
+        
 }

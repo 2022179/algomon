@@ -43,7 +43,7 @@ public class Algomon {
         this.speed = speed;
         
         
-         
+         //abilities
     List<abilityType> abilitiesDefensive = new ArrayList<>();
     List<abilityType> abilitiesHealing = new ArrayList<>(); 
     List<abilityType> abilitiesOffensive = new ArrayList<>();
