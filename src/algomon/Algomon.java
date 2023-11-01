@@ -44,9 +44,9 @@ public class Algomon {
         
         
          
-    List<Ability> abilitiesDefensive = new ArrayList<>();
-    List<Ability> abilitiesHealing = new ArrayList<>(); 
-    List<Ability> abilitiesOffensive = new ArrayList<>();
+    List<abilityType> abilitiesDefensive = new ArrayList<>();
+    List<abilityType> abilitiesHealing = new ArrayList<>(); 
+    List<abilityType> abilitiesOffensive = new ArrayList<>();
    
     }
     public void takeDamage(int damage) {

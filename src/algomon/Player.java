@@ -32,5 +32,9 @@ private ArrayList<Algomon>algomonTeam;
      }
      
      }
+
+    void addAlgomonToTeam(Algomon algomon) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
