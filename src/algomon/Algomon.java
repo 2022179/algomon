@@ -6,7 +6,12 @@ package algomon;
 
 /**
  *
- * @author Primm
+ * @author Lecturer
+ * GitHub link:
+ * Group Member 1 Name: Primrose
+ * Group Member 1 Student Number: 2022179
+ * Group Member 2 Name:Caroline Iheanacho
+ * Group Member 2 Student Number: 2022503
  */
 public class Algomon {
 
