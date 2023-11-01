@@ -22,7 +22,7 @@ public class OffensiveAbility implements abilityType {
     
     public void activate(Algomon source, Algomon target){
     
-        System.out.println(source +" activates Offensive Ability"" + name +""on" + target.name);
+        System.out.println(source +"activates Offensive Ability" + name +on" + target.name);
     
     }
 }

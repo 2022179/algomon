@@ -17,37 +17,7 @@ public class AlgomonTeam {
     private static AlgomonTeam[] values() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-//    private String name;
-//    private ElementType element;
-//    private int Health;
-//    private int attack;
-//    private int defense;
-//    private int speed;
-//    private final Arraylist<abilityType>abilities; 
-//    private final int health;
-//    
-//    public AlgomonTeam name, ElemenType element){
-//    
-//    this.name=name;
-//    this.element = element;
-//    this.health = new Random().nextInt(51)+50;
-//    this.attack = new Random().nextInt(21)+10;
-//    this.speed = new Random().nextInt(10)+1;
-//    this.abilities= new ArrayList<>();
-//    
-//    }
-//     public void addAbility(abilityType ability){
-//     
-//     abilities.add(ability);
-//     }
-//    public void activateAbility(int index, Algomon target){
-//    
-//    if(index >= 0 && index <abilityType.size()){
-//    abilities.get(index).activate(this,target);
-//    
-//    }
-//    
-//    }
+
     Player player1 = new Player("Player 1");
     Player player2 = new Player("Player 2");
 

@@ -11,10 +11,11 @@ import java.util.ArrayList;
  * @author User
  */
 public class Player {
+    //name made private 
     private final String name;
     
 private ArrayList<Algomon>algomonTeam;
-            
+           
             public Player(String name){
             this.name = name;
             this.algomonTeam =  new ArrayList<>();
@@ -27,7 +28,7 @@ private ArrayList<Algomon>algomonTeam;
      
      algomonTeam.add(algomon);
      }else{
-     
+     // output
          System.out.println(name +"cannot have more tha 4 Algomon!");
      }
      
