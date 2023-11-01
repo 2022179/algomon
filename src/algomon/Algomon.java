@@ -4,7 +4,9 @@
  */
 package algomon;
 
+import java.lang.annotation.ElementType;
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  *
@@ -22,13 +24,35 @@ public class Algomon {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-      String name;
-      int health;
-      int attack;
-      int defense;
-      int speed;
-      ArrayList<ability> abilities;
-      
-    }
+
+    private final String name;
+    private final ElementType element;
+    private final int health;
+    private final int attack;
+    private final int defense;
+    private final int speed;
+    private final ArrayList<Object> abilities;
+    public Algomon(String name, ElementType element)
+    {
+this.name = name;
+this.element = element;
+this.health = new Random().nextInt(51) + 50;
+
+this.attack = new Random().nextInt(21) + 10;
+this.defense = new Random().nextInt(16) + 5;
+this.speed = new Random().nextInt(10) + 1;
+this.abilities = new ArrayList<>();
+}
     
+    public void addAbility(Ability ability) {
+abilities.add(ability);
+}
+
+public void activateAbility(int index, Algomon target) {
+if (index &gt;= 0 &amp;&amp; index &lt; abilities.size()) {
+abilities.get(index).activate(this, target);
+}
+}
+
+}
 }
