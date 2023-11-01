@@ -8,7 +8,7 @@ package algomon;
  *
  * @author User
  */
-public class OffensiveAbility implements abilityTtype {
+public class OffensiveAbility implements abilityType {
     
     
     private String name;
