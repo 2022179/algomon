@@ -19,7 +19,7 @@ public class AlgomonTeam {
     private int attack;
     private int defense;
     private int speed;
-    private Arraylist<Ability>abilities; 
+    private final Arraylist<ability>abilities; 
     private final int health;
     
     public Algomon(String name, ElemenType element){
@@ -29,7 +29,7 @@ public class AlgomonTeam {
     this.health = new Random().nextInt(51)+50;
     this.attack = new Random().nextInt(21)+10;
     this.speed = new Random().nextInt(10)+1;
-    this.abilities= new ArryList<>();
+    this.abilities= new ArrayList<>();
     
     }
      public void addAbility(Ability ability){

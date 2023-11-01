@@ -4,8 +4,10 @@
  */
 package algomon;
 
+import algomon.enums.AlgomonType;
 import java.lang.annotation.ElementType;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -23,15 +25,35 @@ public class Algomon {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-      final String name;
-     final  String type;
-      final int health;
-      final int attack;
-     final int defense;
-      final int speed;
-      ArrayList<ability>[] abilities;    
+   
+ 
+    private final String name;
+    private final AlgomonType type;
+    private int health;
+    private final int attack;
+    private final int defense;
+    private final int speed;
 
+    public Algomon(String name, AlgomonType type, int health, int attack, int defense, int speed) {
+        this.name = name;
+        this.type = type;
+        this.health = health;
+        this.attack = attack;
+        this.defense = defense;
+        this.speed = speed;
+        
+        
+         
+    List<Ability> abilitiesDefensive = new ArrayList<>();
+    List<Ability> abilitiesHealing = new ArrayList<>(); 
+    List<Ability> abilitiesOffensive = new ArrayList<>();
+   
+    }
+    public void takeDamage(int damage) {
+        health -= damage;
+        if (health < 0) {
+            health = 0;
+        }
+ 
 }
-  
 }
