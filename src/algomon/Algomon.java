@@ -13,7 +13,7 @@ import java.util.Random;
 /**
  *
  * @author Lecturer
- * GitHub link:
+ * GitHub link:https://github.com/2022179/algomon
  * Group Member 1 Name: Primrose
  * Group Member 1 Student Number: 2022179
  * Group Member 2 Name:Caroline Iheanacho
