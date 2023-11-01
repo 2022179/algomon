@@ -6,8 +6,8 @@ package algomon;
 
 /**
  *
- * @author User
+ * @author Primm
  */
-public class Ability {
+class ability {
     
 }
