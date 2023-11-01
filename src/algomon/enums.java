@@ -9,5 +9,7 @@ package algomon;
  * @author Primm
  */
 public class enums {
-    
+    enum AlgomonType {
+    Fire, Water, Earth, Sun, Moon, Star
+}
 }
