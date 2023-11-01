@@ -21,6 +21,16 @@ private ArrayList<Algomon>algomonTeam;
             
             }
             
-            
+     public void addAlgomon(Algomon algomon){
+     
+     if(algomonTeam.size()<4){
+     
+     algomonTeam.add(algomon);
+     }else{
+     
+         System.out.println(name +"cannot have more tha 4 Algomon!");
+     }
+     
+     }
     
 }
